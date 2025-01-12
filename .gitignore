@@ -1,0 +1,79 @@
+# Flutter/Dart specific
+*.dart_tool/
+*.packages
+.pub/
+build/
+flutter_*.log
+.idea/
+.vscode/
+
+# iOS specific
+ios/Flutter/.last_build_id
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Pods/
+ios/Podfile.lock
+ios/.symlinks/
+ios/Flutter/engine/
+
+# Android specific
+.android/
+android/app/build/
+android/build/
+android/.gradle/
+android/gradle-wrapper.jar
+android/gradle-wrapper.properties
+android/app/proguard-rules.pro
+android/.idea/
+android/local.properties
+android/.gradle/
+
+# macOS specific
+macos/Flutter/Generated.xcconfig
+macos/Pods/
+macos/.symlinks/
+
+# Windows specific
+windows/runner/.config/
+windows/runner/.vs/
+
+# Linux specific
+linux/Flutter/Generated.xcconfig
+linux/.idea/
+
+# Web specific
+web/.dart_tool/
+web/.build/
+
+# Others
+*.log
+*.bak
+*.swp
+*.swo
+*.tmp
+*.idea/
+*.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# VSCode settings
+.vscode/
+
+# IntelliJ settings
+.idea/
+
+# Environment configuration files
+.env
+.env.*.local
+
+# Archive files
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
