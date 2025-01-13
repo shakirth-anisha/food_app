@@ -47,6 +47,3 @@ To get started with this project:
 - **Dart**: Programming language used for building Flutter apps.
 - **Animated Text Kit**: A Flutter package for creating animated text effects.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
