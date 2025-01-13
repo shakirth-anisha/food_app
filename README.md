@@ -9,10 +9,6 @@ A Flutter-based mobile app where users can search for various food items. The ap
 - **Animated Hint Text**: The hint text in the search bar cycles through various food items such as "Cakes," "Pancakes," "Salad," "Pie," and more.
 - **Interactive UI**: The search bar responds to user interaction, with the hint text disappearing when the user clicks on the input field.
 
-## Screenshots
-
-![Food App Screenshot](screenshot.png)
-
 ## Installation
 
 To get started with this project:
