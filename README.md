@@ -1,16 +1,52 @@
-# food_app
 
-A new Flutter project.
+# Food App
 
-## Getting Started
+A Flutter-based mobile app where users can search for various food items. The app features an animated search bar that cycles through food items like "Cakes," "Pancakes," "Salad," etc. The app is designed with a clean and engaging interface, providing a smooth user experience.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Search Bar**: Allows users to search for food items.
+- **Animated Hint Text**: The hint text in the search bar cycles through various food items such as "Cakes," "Pancakes," "Salad," "Pie," and more.
+- **Interactive UI**: The search bar responds to user interaction, with the hint text disappearing when the user clicks on the input field.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Food App Screenshot](screenshot.png)
+
+## Installation
+
+To get started with this project:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/repository-name.git
+   ```
+
+2. **Navigate into the project directory**:
+
+   ```bash
+   cd repository-name
+   ```
+
+3. **Install dependencies**:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. **Run the app**:
+
+   ```bash
+   flutter run
+   ```
+
+## Technologies Used
+
+- **Flutter**: Framework for building natively compiled applications for mobile.
+- **Dart**: Programming language used for building Flutter apps.
+- **Animated Text Kit**: A Flutter package for creating animated text effects.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
