@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:animated_text_kit/animated_text_kit.dart'; // Added for animated text
+import 'package:animated_text_kit/animated_text_kit.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -12,7 +12,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  bool isTyping = false; // Tracks if user is typing
+  bool isTyping = false;
   final TextEditingController _controller = TextEditingController();
 
   @override
@@ -33,6 +33,37 @@ class _HomePageState extends State<HomePage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           searchField(),
+          SizedBox(
+            height: 40,
+          ),
+          Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(left: 20),
+                child: Text(
+                  'Category',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              Container(
+                height: 150,
+                color: Colors.pinkAccent,
+                child: ListView.builder(
+					itemBuilder: (context, index) {
+						return Container(
+							
+						);
+					}),
+              ),
+            ],
+          )
         ],
       ),
     );
@@ -57,7 +88,6 @@ class _HomePageState extends State<HomePage> {
                     filled: true,
                     fillColor: Colors.white,
                     contentPadding: EdgeInsets.all(15),
-                    hintText: '', // Empty hintText to avoid overlapping
                     prefixIcon: SizedBox(
                       width: 60,
                       child: Padding(
@@ -94,15 +124,15 @@ class _HomePageState extends State<HomePage> {
               ),
               if (!isTyping)
                 Positioned(
-                  left: 60, // Adjust to match prefix icon width
-                  top: 17, // Centered within the TextField
+                  left: 60,
+                  top: 17,
                   child: SizedBox(
-                    width: 250, // Adjust for available space
+                    width: 250, 
                     child: DefaultTextStyle(
                       style: TextStyle(fontSize: 16.0, color: Colors.grey),
                       child: Row(
                         children: [
-                          Text('Search '), // Static text
+                          Text('Search '),
                           AnimatedTextKit(
                             repeatForever: true,
                             animatedTexts: [
